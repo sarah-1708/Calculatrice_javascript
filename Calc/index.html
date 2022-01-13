@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <title>Calculatrice</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="content">
+            
+            <div id="resultat"></div>
+            
+            <div class="touchs">
+                <div id="C" class="touch" onClick='effacer()'> C</div>
+                <div id="CE" class="touch" onClick='effacerDerniereChaineDeCaracteres()'> CE</div>
+                <div id="0" class="touch" onClick='ajouterNb("0");'>0</div>
+                <div id="+" class="touch" onClick='ajouterOp("+")'> +</div>
+                <div id="7" class="touch" onClick='ajouterNb("7")'> 7</div>
+                <div id="8" class="touch" onClick='ajouterNb("8")'> 8</div>
+                <div id="9" class="touch" onClick='ajouterNb("9")'> 9</div>
+                <div id="-" class="touch" onClick='ajouterOp("-")'> -</div>
+                <div id="4" class="touch" onClick='ajouterNb("4")'> 4</div>
+                <div id="5" class="touch" onClick='ajouterNb("5");ajouterExp("²")'> 5</div>
+                <div id="6" class="touch" onClick='ajouterNb("6")'> 6</div>
+                <div id="*" class="touch" onClick='ajouterOp("*")'> *</div>
+                <div id="1" class="touch" onClick='ajouterNb("1")'> 1</div>
+                <div id="2" class="touch" onClick='ajouterNb("2")'> 2</div>
+                <div id="3" class="touch" onClick='ajouterNb("3")'> 3</div>
+                <div id="/" class="touch" onClick='ajouterOp("/")'> /</div>
+                <div class="touch" onClick='calcul()'> =</div>
+                <div class="touch" onClick='addRemoveMinus()'> +/-</div>
+                <div class="touch" onClick='effacerDernierCaractere()'>< </div>
+                <div class="touch" onClick='point()'> .</div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

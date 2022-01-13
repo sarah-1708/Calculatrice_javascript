@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#container {
+    width: 50%;
+    height: 100%;
+    background-color: steelblue;
+    position: absolute;
+    margin: 0 25%;
+}
+
+#content {
+    background-color: white;
+    width: 90%;
+    height: 86%;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 10px 2px;
+    box-shadow: 0px 5px 18px 1px black;
+}
+
+#resultat {
+    width: 88%;
+    height: 14%;
+    background-color: green;
+    position: absolute;
+    opacity: 0.3;
+    position: relative;
+    margin: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.operateur {
+    background-color: orange;
+    width: 46%;
+    height: 94%;
+    margin-right: 24px;
+}
+
+
+
+.touchs {
+    display: flex;
+    position: relative;
+    width: 88%;
+    background-color: rgb(241, 107, 107, 0.6);
+    margin: auto;
+    height: 73%;
+    margin-top: 37px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border-radius: 13px;
+
+
+}
+
+.touch {
+    background: rgb(23, 13, 236);
+    background: linear-gradient(28deg, rgba(23, 13, 236, 1) 0%, rgba(79, 178, 203, 1) 69%);
+    width: 20%;
+    height: 15%;
+    margin: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26px;
+    border: 1px solid blue;
+}
